@@ -1,5 +1,6 @@
 # yaml =  yet another markuo language
 # aint markup language
+
 on : push
 jobs : 
     first-job:
@@ -7,5 +8,6 @@ jobs :
       steps :
         - run : node --version
         - run : npm --version
+        - uses : actions/checkout@v3
+        - run : npm i
         - run : node index.js
-       
