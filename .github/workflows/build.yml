@@ -1,6 +1,5 @@
 # yaml =  yet another markuo language
 # aint markup language
-
 on : push
 jobs : 
     first-job:
