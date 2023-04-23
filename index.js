@@ -1,3 +1,3 @@
-let rn = require("random-number")
+const rn = require('random-number')
 console.log(rn())
-console.log("Hello world!")
+console.log('Hello world!')

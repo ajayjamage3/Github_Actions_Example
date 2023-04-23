@@ -19,5 +19,12 @@
   "homepage": "https://github.com/ajayjamage3/Github_Actions_Example#readme",
   "dependencies": {
     "random-number": "^0.0.9"
+  },
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1"
   }
 }
