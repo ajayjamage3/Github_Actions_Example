@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ajayjamage3/Github_Actions_Example/issues"
   },
-  "homepage": "https://github.com/ajayjamage3/Github_Actions_Example#readme"
+  "homepage": "https://github.com/ajayjamage3/Github_Actions_Example#readme",
+  "dependencies": {
+    "random-number": "^0.0.9"
+  }
 }

@@ -8,5 +8,8 @@ jobs :
       steps :
         - run : node --version
         - run : npm --version
-        - uses : actions/checkout@v3
+    second-job:
+      runs-on : windows-latest
+      steps :
+        - run : npm install
         - run : node index.js
