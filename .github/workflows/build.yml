@@ -7,8 +7,6 @@ jobs :
       steps :
         - run : node --version
         - run : npm --version
-    second-job:
-      runs-on : windows-latest
-      steps :
-        - run : npm install
+         - run : npm install
         - run : node index.js
+       
